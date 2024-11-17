@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 import time
 
-# Set the page configuration
+
 st.set_page_config(page_title="In-Car AI Assistant", layout="wide")
 
-# Sidebar navigation
+
 st.sidebar.title("Navigation")
 menu = st.sidebar.radio("Go to", ["Home", "Sensor Data Visualization", "Driving Alerts", "Smart Device Integration"])
 
